@@ -24,7 +24,7 @@ const SignUp = () => {
     }
 
     if (user) {
-        navigate('/home');
+        navigate('/shop');
     }
 
     const handleCreateUser = event => {
